@@ -90,7 +90,7 @@
         align-items: center;
         justify-content: center;
         color: var(--white);
-        background-color: var(--brown);
+        background-color: var(--base-color);
         border: 1px solid var(--light-gray);
       }
     }

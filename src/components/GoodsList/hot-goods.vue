@@ -60,7 +60,7 @@
         width: 30%;
         top: 50%;
         left: 0;
-        border-bottom: 1px solid var(--brown);
+        border-bottom: 1px solid var(--base-color);
       }
       &:after {
         content: '';
@@ -69,7 +69,7 @@
         width: 30%;
         top: 50%;
         right: 0;
-        border-bottom: 1px solid var(--brown);
+        border-bottom: 1px solid var(--base-color);
       }
     }
     .sl-goods-card2 {

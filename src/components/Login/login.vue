@@ -53,7 +53,7 @@
       cursor: pointer;
     }
     .register {
-      color: var(--brown);
+      color: var(--base-color);
     }
     .forget-pwd {
       color: var(--gray);
@@ -74,7 +74,7 @@
       height: @input-h;
       color: var(--white);
       border-radius: 2px;
-      background-color: var(--brown);
+      background-color: var(--base-color);
       cursor: pointer;
       display: flex;
       align-items: center;

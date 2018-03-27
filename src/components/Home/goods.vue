@@ -79,7 +79,7 @@
       align-items: center;
       justify-content: space-between;
       height: 50px;
-      border-bottom: 2px solid var(--brown);
+      border-bottom: 2px solid var(--base-color);
       padding: 10px;
       margin-top: 18px;
       margin-bottom: 12px;

@@ -68,7 +68,7 @@
       }
     }
     input:focus + div {
-      border: 1px solid var(--brown);
+      border: 1px solid var(--base-color);
     }
   }
 </style>

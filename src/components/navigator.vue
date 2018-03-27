@@ -23,9 +23,9 @@
       return {
         navigators: [
           {name: '首页', route: 'Home'},
-          {name: '生鲜', route: 'Home'},
-          {name: '甜品专区', route: 'GoodsList'},
-          {name: '生鲜特卖', route: ''}
+          {name: '生鲜', route: 'GoodsList'},
+          {name: '甜品专区', route: 'Home'},
+          {name: '生鲜特卖', route: 'GoodsList'}
         ],
         currentNav: {
           navIndex: 0

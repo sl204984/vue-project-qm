@@ -56,7 +56,7 @@
       }
       .cur {
         transform: scale(1.02);
-        background-color: var(--brown);
+        background-color: var(--base-color);
         color: var(--white);
       }
     }
