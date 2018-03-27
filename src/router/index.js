@@ -7,7 +7,7 @@ import GoodsList from '../components/GoodsList'
 import GoodsDetail from '../components/GoodsDetail'
 import ShoppingCart from '../components/ShoppingCart'
 
-import HelloWorld from '../components/hello-world'
+import Test from '../components/test'
 
 
 Vue.use(Router);
@@ -40,9 +40,9 @@ export default new Router({
       component: ShoppingCart
     },
     {
-      path: '/helloWorld',
-      name: 'HelloWorld',
-      component: HelloWorld
+      path: '/test',
+      name: 'Test',
+      component: Test
     }
   ]
 })
