@@ -4,6 +4,7 @@
     <div class="input">
       <input type="text" placeholder="请输入绑定手机号">
     </div>
+
     <div class="input">
       <input type="password" placeholder="请输入密码">
     </div>

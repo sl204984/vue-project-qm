@@ -19,7 +19,7 @@
     props: [ "placeholder"],
     methods: {
       search() {
-        this.$emit('search');
+        this.$emit('search', this.inputText);
       }
     },
   }
