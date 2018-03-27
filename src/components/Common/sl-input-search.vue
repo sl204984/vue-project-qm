@@ -9,10 +9,23 @@
 <script type="text/ecmascript-6">
   export default {
     name: "sl-input-search",
-    props: ["inputText", "placeholder"],
+
+    data() {
+      return {
+        inputText: ''
+      }
+    },
+
+    props: [ "placeholder"],
     methods: {
       search() {
         this.$emit('search');
+      }
+    },
+
+    watch: {
+      inputText(val) {
+        console.log(val);
       }
     }
   }

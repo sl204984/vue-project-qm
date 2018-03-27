@@ -30,7 +30,7 @@
   --colorful-border: var(--colorful-border-width) solid transparent;
 
   /*border image*/
-  --colorful-img: var(--colorful-border-w) var(--colorful);
+  --colorful-img: var(--colorful-border-w) var(--colorful-bg);
   --colorful-img-base: var(--colorful-border-w) var(--colorful-bg-base);
   --border-img-interval: var(--colorful-border-w) var(--colorful-bg-interval);
 
