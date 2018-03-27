@@ -22,12 +22,6 @@
         this.$emit('search');
       }
     },
-
-    watch: {
-      inputText(val) {
-        console.log(val);
-      }
-    }
   }
 </script>
 
