@@ -1,0 +1,38 @@
+:root {
+
+  /*size scale*/
+  --colorful-border-w: 10;
+  --colorful-border-width: 10px;
+
+  /*base-color*/
+  /*--base-color: #0909bf88;*/
+  --base-color: var(--brown);
+  --primary-color: #009797;
+
+  --white: #fff;
+  --red: #ff0000;
+  --black-gray: #333;
+  --dark-gray: #666;
+  --gray: #aaa;
+  --light-gray: #eee;
+  --pink: #fd8cb0;
+  --brown: rgba(202, 176, 99, 1);
+  --blue: blue;
+  --light-blue: lightblue;
+  --green: green;
+  --light-green: lightgreen;
+
+  /*background color*/
+  --colorful-bg: linear-gradient(0deg, orange, red);
+  --colorful-bg-base: linear-gradient(#eee, #aaa, gold);
+  --colorful-bg-interval: repeating-linear-gradient(-45deg, #cc2a2d, #cc2a2d 30px, #f2f2f2 30px, #f2f2f2 40px, #0e71bb 40px, #0e71bb 70px, #f2f2f2 70px, #f2f2f2 80px);
+
+  /*border*/
+  --colorful-border: var(--colorful-border-width) solid transparent;
+
+  /*border image*/
+  --colorful-img: var(--colorful-border-w) var(--colorful);
+  --colorful-img-base: var(--colorful-border-w) var(--colorful-bg-base);
+  --border-img-interval: var(--colorful-border-w) var(--colorful-bg-interval);
+
+}
